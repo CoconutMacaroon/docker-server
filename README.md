@@ -13,4 +13,4 @@ Inside the `serverFiles` folder, run `sudo docker-compose build --no-cache && su
 
 ## HAProxy
 
-To start the reverse-proxy, navigate to the `serverFiles` folder and run `sudo haproxy -f test.cfg`.
+To start the reverse-proxy, navigate to the `serverFiles` folder and run `sudo haproxy -f web-frontend.cfg`.

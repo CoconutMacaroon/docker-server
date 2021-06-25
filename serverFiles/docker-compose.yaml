@@ -1,0 +1,13 @@
+services:
+  heimdall:
+    image: linuxserver/heimdall
+    ports:
+      - 8002:80
+    volumes:
+      - ./heimdall:/config
+  webserver:
+    build: .
+    ports:
+      - 8001:80
+    tty: true
+   
